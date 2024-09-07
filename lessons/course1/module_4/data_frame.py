@@ -1,6 +1,6 @@
 import pandas as pd
 
-file_path = '../../../files/titanic_train_copy.csv'
+file_path = '../../../files/titanic_train.csv'
 with open(file_path,'r') as file:
     content = file.read()
     print(content)
